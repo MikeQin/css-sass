@@ -1,0 +1,16 @@
+@import "./variables";
+@import "./header";
+
+.contact {
+  // include
+  //@include flexCenter(row, blue);
+
+  // extend
+  @extend header;
+
+  // override
+  background: lightcoral;
+
+  // calculation
+  width: 100% - 20%;
+}

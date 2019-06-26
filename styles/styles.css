@@ -1,0 +1,23 @@
+header, .contact {
+  height: 100vh;
+  color: yellow;
+  background: lightblue;
+}
+
+header button, .contact button {
+  background: #38928e;
+}
+
+header button:hover, .contact button:hover {
+  background: red;
+}
+
+header button::after, .contact button::after {
+  content: " World";
+}
+
+.contact {
+  background: lightcoral;
+  width: 80%;
+}
+/*# sourceMappingURL=styles.css.map */
